@@ -34,7 +34,7 @@
             border-radius: 5px;
         }
         .hero {
-            background: url('banner.jpg') no-repeat center center/cover;
+            background: url('images/banner.jpg') no-repeat center center/cover;
             color: white;
             text-align: center;
             padding: 150px 20px;
@@ -63,6 +63,15 @@
             border-radius: 10px;
             transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
         }
+        .service-box img {
+            width: 100%;
+            border-radius: 10px;
+            box-shadow: 2px 2px 10px rgba(0,0,0,0.1);
+            transition: transform 0.3s;
+        }
+        .service-box img:hover {
+            transform: scale(1.05);
+        }
         .service-box:hover {
             transform: scale(1.05);
             box-shadow: 5px 5px 15px rgba(0,0,0,0.2);
@@ -89,18 +98,25 @@
     <section class="hero">
         <h2>Solusi Konstruksi & Teknik Las Profesional</h2>
     </section>
+    <section id="about" class="container">
+        <h2>Tentang Kami</h2>
+        <p>CV Suta Karya Teknik adalah usaha yang sebelumnya bernama Bengkel Las UD Lovan, yang telah beroperasi sejak 2013. Kami melayani konstruksi baja & bangunan, eksterior & interior, konstruksi aluminium, serta pembuatan kanopi, pagar, pintu gerbang, tralis, dan sejenisnya. Dengan keahlian tinggi, kualitas unggul, dan layanan handal, kami terus berkembang untuk memberikan solusi terbaik bagi pelanggan.</p>
+    </section>
     <section id="services" class="container">
         <h2>Layanan Kami</h2>
         <div class="services">
             <div class="service-box">
+                <img src="images/konstruksi.jpg" alt="Konstruksi Baja & Bangunan">
                 <h3>Konstruksi Baja & Bangunan</h3>
                 <p>Pembangunan struktur baja yang kokoh dan tahan lama.</p>
             </div>
             <div class="service-box">
+                <img src="images/eksterior.jpg" alt="Eksterior & Interior">
                 <h3>Eksterior & Interior</h3>
                 <p>Pembuatan railing, partisi, dan elemen dekoratif.</p>
             </div>
             <div class="service-box">
+                <img src="images/kanopi.jpg" alt="Kanopi & Pagar">
                 <h3>Kanopi & Pagar</h3>
                 <p>Desain dan pembuatan kanopi, pagar, dan tralis berkualitas.</p>
             </div>
@@ -108,8 +124,9 @@
     </section>
     <section id="contact" class="contact">
         <h2>Hubungi Kami</h2>
-        <p>Telepon: [Nomor Kontak]</p>
-        <p>Email: [Alamat Email]</p>
+        <p>Alamat: Jl. Raya Labuhan Lombok, Pringgabaya, Lombok Timur, Nusa Tenggara Barat</p>
+        <p>Telepon: +62 877-3786-6791 / +62 877-57237953</p>
+        <p>Jam Operasional: Senin - Sabtu, 08:00 - 17:00</p>
     </section>
 </body>
 </html>
